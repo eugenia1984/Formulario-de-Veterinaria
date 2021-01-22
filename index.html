@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Veterinaria</title>
+  <link rel="shorcut icon" type="image/x-icon"  href="img/favicon.png">
+  
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Completá los datos sobre tu mascota</h1>
+      <img src="img/pets.png" alt="dibujo de varios animales acostados juntos: loro, conejo, gato, perro, ratón.">
+    </header>
+
+    <section>
+      <h2>Datos de su dueño</h2>
+      <form action="https://formspree.io/f/mvovlqzz" method="post">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="nombre" required>
+  
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="correo" required>
+  
+        <label for="tel">Teléfono de contacto:</label>
+        <input type="tel" id="tel" name="telefono" placeholder="Incluir código de área" required>
+  
+        <label for="pais">País de residencia:</label>    
+        <select name="pais" id="pais" required>
+          <option value="AR">Argentina</option>
+          <option value="UY">Uruguay</option>
+          <option value="BR">Brasil</option>
+          <option value="PE">Perú</option>
+          <option value="CO">Colombia</option>
+          <option value="MX">México</option>
+        </select>
+
+        <h2>Información de tu mascota</h2>
+  
+        <label for="nombredemascota">Nombre</label>
+        <input type="text" id="nombredemascota" name="nombremascota" required>
+        
+        <p>Sexo:</p>
+        <label for="sexo"> <input class="junto" type="radio"  value="hembra" name="sexomascota"> Hembra</label>
+        
+        
+        <label for="sexo"> <input class="junto" type="radio"  value="macho" name="sexomascota"> Macho</label>
+        
+        
+  
+        <label for="edadmascota">Edad (solo la cantidad de años):</label>
+        <input type="number" min="0" max="20" id="edadmascota">
+        
+        <label for="peso">Peso (redondear en kilos):</label>
+        <input type="number" id="peso" name="peso">
+  
+  
+        <label for="raza">Raza:</label>
+        <input type="text" id="raza" name="razamascota">
+  
+        <label for="tamano">Tamaño:</label>
+        <input type="text" id="tamano" name="tamanomascota" placeholder="Ejemplo: chico, mediano, grande">
+  
+        <label for="ultimavacunacion">Última Vacunación:</label>
+        <input type="date" id="ultimavacunacion" name="ultimavacunacionmascota" required>
+  
+        <label for="suscripcion">  <input class="junto" type="checkbox" id="suscripcion" value="si">¿Desea recibir nuestras promociones de productos para tu mascota?</label>
+  
+        <button type="submit">Enviar</button>
+  
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2021 - Diseñado por María Eugenia Costa</p>
+  </footer>
+  
+</body>
+</html>

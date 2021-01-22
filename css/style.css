@@ -1,0 +1,102 @@
+@font-face {
+  font-family: "Noto Sans";
+  src: url(../fonts/NotoSansJP-Regular.otf);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to right, rgba(161, 38, 135, 0.8) 0%, rgba(161, 38, 135, 0.2) 100%);
+  font-family: 'Noto Sans', sans-serif;
+}
+
+/*MAIN*/
+main {
+  width: 68%;
+  margin: 0 auto 30px auto;
+}
+/* HEADER */
+header{
+  font-size: 20px;
+  text-align: center; 
+}
+
+h1 {
+  width: 100%;
+  font-size: 30px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 45px;
+}
+
+img {
+  width: 100%;
+}
+
+/*SECTION*/
+
+button {
+  background-color: rgba(161, 38, 135, 0.80);
+  border-radius: 4px;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 20px;
+  padding: 10px 20px;  
+}
+
+button:hover {
+  font-size: 25x;
+  padding: 15px 25px; 
+}
+
+h2 {
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+input {
+  width: 60%;
+  margin: 0 auto;
+  height: 28px;
+  border-radius: 6px;
+}
+
+input:focus {
+  height: 32px;
+  border: 4px solid rgba(161, 38, 135, 0.8);
+  border-radius: 8px;
+
+}
+label {
+  display: block;
+  padding-top: 10px;
+}
+
+p {
+  padding-top: 10px;
+}
+section {
+  border: 5px solid rgba(161, 38, 135, 0.99);
+  padding: 30px 20px;
+  -webkit-box-shadow: -8px 8px 4px  rgba(116, 107, 116, 0.7), -3px 3px 2px  rgba(116, 107, 116, 0.99);
+  -moz-box-shadow: -8px 8px 4px  rgba(116, 107, 116, 0.7), -3px 3px 2px  rgba(116, 107, 116, 0.99);
+  box-shadow: -8px 8px 4px rgba(116, 107, 116, 0.7), -3px 3px 2px  rgba(116, 107, 116, 0.99);
+}
+
+.junto{
+  display: inline-block;
+  width: auto;
+  margin-right: 10px;
+}
+
+/*FOOTER*/
+footer {
+  background-color: rgba(161, 38, 135, 0.9);
+  color: #fff;
+  height: 40px;
+  text-align: center;
+}
