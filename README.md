@@ -3,7 +3,7 @@
 
 With PROGRAMA DESDE TU CASA I am taking a course of Introduction to Web Programming. <br/>
 As a homework we must create a form  for a veterinarian. <br/>
-I used the semantic HTML tags and for the form: <form>, <label>, <input>, <select> and <buttom> and give some style with css.<br/>
+I used the semantic HTML tags and for the form I use FORM, LABEL, INPUT; SELEC and BUTTOM tags and gave some style with css.<br/>
 In orden to see the information the people coemplete in the form I linked with Formspree.
 
 
